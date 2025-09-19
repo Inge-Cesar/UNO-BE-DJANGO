@@ -11,6 +11,7 @@ class Auditoria(models.Model):
 
     class Meta:
         db_table = "Auditoria"
+        managed = True
         
 
     def __str__(self):

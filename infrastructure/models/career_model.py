@@ -11,6 +11,7 @@ class Career(models.Model):
 
     class Meta:
         db_table = "carreras"
+        managed = True
 
     def __str__(self):
         return self.nombre

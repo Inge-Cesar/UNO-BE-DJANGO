@@ -7,7 +7,7 @@ class Faculty(models.Model):
     
     class Meta:
         db_table = 'facultades'
-        managed = False
+        managed = True
 
     def __str__(self):
         return self.nombre

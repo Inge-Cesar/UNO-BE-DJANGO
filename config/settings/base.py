@@ -10,7 +10,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 DEBUG = env('DEBUG')
 SECRET_KEY = env('SECRET_KEY')
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "https://uno-be-django-002.onrender.com"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "uno-be-django-002.onrender.com"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
